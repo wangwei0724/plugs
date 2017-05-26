@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>前后翻阅图片</title>
+	<style type="text/css">
+		#container{
+			width: 450px;
+			position: relative;
+			top: 100px;
+			left: 50%;
+			margin-left: -225px;
+		}
+		#img_container{
+			width: 100%;
+			height: 300px;
+			position: relative;
+		}
+		#img_container img{
+			width: 100%;
+			height: 100%;
+		}
+		#left_side{
+			width: 50%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		#right_side{
+			width: 50%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 50%;
+		}
+		#choose_container{
+			text-align: center;
+			margin-top: 30px;
+		}
+		#choose_container img{
+			width: 60px;
+			height: 40px;
+			margin-left: 15px;
+		}
+	</style>
+</head>
+<body>
+<div id="container">
+	<div id="img_container">
+		<img src="first.jpg">
+		<div id="left_side"></div>
+		<div id="right_side"></div>
+	</div>
+	<div id="choose_container">
+		<img src="first.jpg" class="choose_item">
+		<img src="second.jpg" class="choose_item">
+		<img src="third.jpg" class="choose_item">
+	</div>
+</div>
+</body>
+<script type="text/javascript">
+	
+</script>
+</html>
